@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "10"
+script:
+  - yarn test
+before_deploy:
+  - yarn build
+deploy:
+  provider: firebase
+  project: ginpei-dev
+  token:
+    secure: $FIREBASE_TOKEN
+  on:
+    branch: release
+  skip_cleanup: true
