@@ -10,6 +10,10 @@ const HomePage: React.FC = () => {
             alt="A standing penguin with the red sun, the icon of Ginpei"
             height="512"
             src={`${process.env.PUBLIC_URL}/ginpei-1200.png`}
+            style={{
+              height: 'auto',
+              maxWidth: '256px',
+            }}
             width="512"
           />
         </div>
