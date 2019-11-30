@@ -5,6 +5,10 @@ const HomePage: React.FC = () => {
     <div className="HomePage">
       <div className="ui-container">
         <h1>Ginpei Takanashi</h1>
+        <p>
+          GINPEI IS:
+          A guy who writes JavaScript and makes JapaneseSushi in Vancouver, Canada.
+        </p>
         <div className="ui-center">
           <img
             alt="A standing penguin with the red sun, the icon of Ginpei"
@@ -23,6 +27,8 @@ const HomePage: React.FC = () => {
               <th>Name</th>
               <td>
                 Ginpei Takanashi
+                /
+                高梨ギンペイ
               </td>
             </tr>
             <tr>
@@ -45,12 +51,14 @@ const HomePage: React.FC = () => {
                 ginpei@gmail.com
               </td>
             </tr>
+            <tr>
+              <th>Posts</th>
+              <td>
+                <a href="https://ginpen.com/">Ginpen.com （日本語）</a>
+              </td>
+            </tr>
           </tbody>
         </table>
-        <p>
-          GINPEI IS:
-          A guy who writes JavaScript and makes JapaneseSushi in Vancouver, Canada.
-        </p>
       </div>
     </div>
   );
