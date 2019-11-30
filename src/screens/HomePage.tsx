@@ -2,6 +2,20 @@ import React from 'react';
 
 const SlashDelimiter: React.FC = () => <> / </>;
 
+const PublicationSection: React.FC = () => (
+  <section>
+    <h1>Paper Publications</h1>
+    <ul>
+      <li>
+        <a href="https://www.amazon.co.jp/dp/4844364936">現場のプロが教えるHTML+CSSコーディングの最新常識 知らないと困るWebデザインの新ルール4 (2015)</a>
+      </li>
+      <li>
+        <a href="https://www.amazon.co.jp/dp/4844364014">web creators特別号 HTML5完全読本―実践テクニックとWebデザインの最新動向 (2014)</a>
+      </li>
+    </ul>
+  </section>
+);
+
 const HomePage: React.FC = () => {
   return (
     <div className="HomePage">
@@ -94,6 +108,7 @@ const HomePage: React.FC = () => {
             <a href="https://ccc.ginpei.info/">Code Chat Cat (beta)</a>
           </li>
         </ul>
+        <PublicationSection />
       </div>
     </div>
   );
