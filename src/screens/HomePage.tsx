@@ -49,7 +49,7 @@ const HomePage: React.FC = () => {
         </table>
         <p>
           GINPEI IS:
-          A guy who writes JavaScript and make JapaneseSushi in Vancouver, Canada.
+          A guy who writes JavaScript and makes JapaneseSushi in Vancouver, Canada.
         </p>
       </div>
     </div>
