@@ -87,6 +87,12 @@ const HomePage: React.FC = () => {
             <SlashDelimiter />
             <a href="https://github.com/ginpei/understanding-transform-matrix">GitHub</a>
           </li>
+          <li>
+            <a href="https://potoshop.ginpei.info/">Potoshop (Beta)</a>
+          </li>
+          <li>
+            <a href="https://ccc.ginpei.info/">Code Chat Cat (beta)</a>
+          </li>
         </ul>
       </div>
     </div>
