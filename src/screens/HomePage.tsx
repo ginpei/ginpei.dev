@@ -50,6 +50,7 @@ const AppSection: React.FC = () => (
     <h2>Apps</h2>
     <ul>
       <li>
+        {'Browser Extension: '}
         <a href="https://chrome.google.com/webstore/detail/devtools-z-index/bcnpmhefiohkpmjacfoanhbjhikegmoe">DevTools z-index for Chrome</a>
         <SlashDelimiter />
         <a href="https://addons.mozilla.org/en-US/firefox/addon/devtools-z-index/">for Firefox</a>
@@ -57,6 +58,7 @@ const AppSection: React.FC = () => (
         <a href="https://github.com/ginpei/devtools-z-index">GitHub</a>
       </li>
       <li>
+        {'Browser Extension: '}
         <a href="https://chrome.google.com/webstore/detail/%E3%81%8A%E5%89%8D%E3%82%92%E6%B6%88%E3%81%99%E6%96%B9%E6%B3%95-for-github/lhicnokhbnhbecjiahdaokfphfhjkbnp">お前を消す方法 for GitHub for Chrome</a>
         <SlashDelimiter />
         <a href="https://addons.mozilla.org/en-US/firefox/addon/%E3%81%8A%E5%89%8D%E3%82%92%E6%B6%88%E3%81%99%E6%96%B9%E6%B3%95-for-github/">for Firefox</a>
@@ -64,19 +66,23 @@ const AppSection: React.FC = () => (
         <a href="https://github.com/ginpei/omae-wo-kesu-houhou-for-github">GitHub</a>
       </li>
       <li>
+        {'Tool: '}
         <a href="https://pretty-letters.ginpei.info/">Pretty Letters</a>
         <SlashDelimiter />
         <a href="https://github.com/ginpei/pretty-letters">GitHub</a>
       </li>
       <li>
+        {'Tool: '}
         <a href="https://understanding-transform-matrix.ginpei.info/">Understanding transform:matrix()</a>
         <SlashDelimiter />
         <a href="https://github.com/ginpei/understanding-transform-matrix">GitHub</a>
       </li>
       <li>
+        {'App: '}
         <a href="https://potoshop.ginpei.info/">Potoshop (Beta)</a>
       </li>
       <li>
+        {'App: '}
         <a href="https://ccc.ginpei.info/">Code Chat Cat (beta)</a>
       </li>
     </ul>
