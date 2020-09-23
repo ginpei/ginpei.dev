@@ -85,6 +85,10 @@ const AppSection: React.FC = () => (
         {'App: '}
         <a href="https://ccc.ginpei.info/">Code Chat Cat (beta)</a>
       </li>
+      <li>
+        {'Art: '}
+        <a href="https://ginpei.github.io/hannya-roll/">Hannya Roll （般若心経）</a>
+      </li>
     </ul>
   </section>
 );
