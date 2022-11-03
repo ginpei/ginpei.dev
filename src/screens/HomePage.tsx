@@ -31,7 +31,7 @@ const PersonalInformationSection: React.FC = () => (
         <tr>
           <th>Mail</th>
           <td>
-            ginpei@gmail.com
+            ginpei@ginpei.dev
           </td>
         </tr>
         <tr>
