@@ -1,0 +1,27 @@
+---
+export interface Props {
+}
+
+// const { href, title, body } = Astro.props;
+---
+
+<header class="NavBar">
+  <div class="ui-container">
+    <a href="/" class="NavBar-link">Ginpei.dev</a>
+  </div>
+</header>
+
+<style>
+  .NavBar {
+    background-color: #036;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .NavBar-link {
+    color: white;
+    text-decoration: none;
+  }
+  .NavBar-link:hover {
+    text-decoration: underline;
+  }
+</style>
